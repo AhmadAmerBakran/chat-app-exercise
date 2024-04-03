@@ -17,6 +17,9 @@ const formPadding = EdgeInsets.symmetric(vertical: 20, horizontal: 16);
 /// Error message to display the user when unexpected error occurs.
 const unexpectedErrorMessage = 'Unexpected error occurred.';
 
+/// Simple sized box to space out form elements
+const spacer = SizedBox(width: 16, height: 16);
+
 /// Basic theme to change the look and feel of the app
 final appTheme = ThemeData.light().copyWith(
   primaryColorDark: Colors.orange,
